@@ -1,3 +1,0 @@
-C:/Users/86180/Desktop/university/cs/graph/Assignment1_3D_Transformation/CGAssignment1/build/CMakeFiles/CGAssignment1.dir
-C:/Users/86180/Desktop/university/cs/graph/Assignment1_3D_Transformation/CGAssignment1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/86180/Desktop/university/cs/graph/Assignment1_3D_Transformation/CGAssignment1/build/CMakeFiles/ZERO_CHECK.dir
