@@ -114,4 +114,4 @@ tree style - love icon
 ![tree-chess](image/tree-love.png)
 
 ### 链接
-
+Github repo URL:https://github.com/Ashenial/computer-science/edit/main/software_proj/FunnyJsonExplorer
