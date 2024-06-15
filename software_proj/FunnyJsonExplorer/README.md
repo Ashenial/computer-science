@@ -71,6 +71,14 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 **组合模式(Composite)**：组合模式将对象组合成树形结构以表示"部分-整体"的层次结构，使得用户对单个对象和组合对象的使用具有一致性。组合模式的核心角色包括：`component`、`leaf`、`composite`。在上图中分别对应着`Node`、`Leaf`、`Composite`。
 
+### 进阶 迭代器 + 策略模式
+__iter__是一个特殊方法，也称为迭代器方法。当一个对象被用于迭代时，Python会调用这个方法来获取一个迭代器对象。这个迭代器对象负责生成对象中的值，可以通过for循环或next()函数逐个访问这些值。
+```python
+    def __iter__(self):
+        return iter(self.children)
+```
+在类Composite中，__iter__方法被重写，以便返回一个迭代器，该迭代器能够遍历self.children列表中的所有子节点。
+
 ### 添加新的图标簇
 此外，还实现了通过配置文件添加新的图标簇,只要将图标簇文件按以下格式保存在`add_icons`目录下，就可以在输入命令行时直接使用。比如我自定义了一个图标簇文件`love.json`：
 ```json
